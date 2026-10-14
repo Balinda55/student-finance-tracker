@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Regex Tests</title>
+    </head>
+    <body>
+        <h1>Finance Tracker Tests</h1>
+        <p>Green means the tests passed; red means it failed.</p>
+        <ul id="results"></ul>
+        <script>
+            const tests=[
+                ["Valid description", /^\S(?:.*\S)?$/.test("Lunch today"), true],
+      ["Reject leading space", /^\S(?:.*\S)?$/.test(" Lunch"), false],
+      ["Valid amount", /^(0|[1-9]\d*)(\.\d{1,2})?$/.test("25.50"), true],
+      ["Reject negative amount", /^(0|[1-9]\d*)(\.\d{1,2})?$/.test("-25"), false],
+      ["Valid date format", /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/.test("2026-10-12"), true],
+      ["Valid category", /^[A-Za-z]+(?:[ -][A-Za-z]+)*$/.test("School Fees"), true],
+      ["Reject invalid category", /^[A-Za-z]+(?:[ -][A-Za-z]+)*$/.test("Food123"), false],
+      ["Detect repeated words", /\b(\w+)\s+\1\b/i.test("lunch lunch"), true]
+    ];
+    const list=document.getElementById("results");
+
+    tests.forEach(([name,result,expected]) => {
+        const item =document.createElement("li");
+        const passed = result ===expected;
+        item.textContent =(passed ? "PASS: "FAIL: ") + name;
+        item.style.color =passed ? "green" : "red";
+        list.appendChild(item);
+    });
+            ]
+        </script>
+    </body>
+</html>

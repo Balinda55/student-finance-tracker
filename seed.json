@@ -1,0 +1,92 @@
+[
+    {
+        "id": "rec_0001",
+        "description": "Lunch at cafeteria",
+        "amount":2500,
+        "category": "Food",
+        "date": "2026-10-12",
+        "createdAt": "2026-10-12t08:00:00.000Z",
+        "updaredAt": "2026-10-12TO8:00:00.000Z"
+    },
+    {
+        "id": "rec_0002",
+        "description": "Chemistry textbook",
+        "amount": 8999.99,
+        "category": "Books",
+        "date": "2026-10-10",
+        "createdAt":"2026-10-10T08:00:00.000Z",
+        "updaredAt":"2026-10-10TO8:00:00.000Z",
+    },
+    {
+        "id":"rec_0003",
+        "description": "Bus pass",
+        "amount": 1500,
+        "category": "Transport",
+        "date": "2026-10-09",
+        "createdAt":"2026-10-09T08:00:00.000Z",
+        "updaredAt":"2026-10-09TO8:00:00.000Z"
+    },
+    {
+        "id": "rec_0004",
+        "description": "Coffee with friends",
+        "amount": 800.5,
+        "category":"Entertainment",
+        "date": "2026-10-08",
+        "createdAt":"2026-10-08T08:00:00.000Z",
+        "updaredAt":"2026-10-08TO8:00:00.000Z"
+    },
+    {
+        "id":"rec_0005",
+        "description": "Semester fees",
+        "amount":120000,
+        "category":"Fees",
+        "date": "2026-10-07",
+        "createdAt":"2026-10-07T08:00:00.000Z",
+        "updaredAt":"2026-10-07TO8:00:00.000Z"
+    },
+    {
+      "id": "rec_0006",
+      "description":"Tea and bread",
+      "amount":500,
+      "category":"Food",
+      "date": "2026-10-06",
+      "createdAt":"2026-10-06T08:00:00.000Z",
+      "updatedAt":"2026-10-06T08:00:00.000Z"
+    },
+    {
+        "id": "rec_0007",
+        "description":"Notebook",
+        "amount":0,
+        "category":"Books",
+        "date":"2026-10-05",
+        "createdAt":"2026-10-05T08:00:00.000Z",
+        "updatedAt":"2026-10-05T08:00:00.000Z"
+    },
+    {
+        "id":"rec_0008",
+        "description": "Taxi ride",
+        "amount": 3200.75,
+        "category":"Transport",
+        "date":"2026-09-30",,
+        "createdAt":"2026-09-30T08:00:00.000Z",
+        "updatedAt":"2026-09-30T08:00:00.000Z"
+    },
+    {
+        "id":"rec_0009",
+        "description": "Movie ticket",
+        "amount":4500,
+        "category" :"Entertainment",
+        "date":"2026-09-25",
+        "createdAt":"2026-09-25T08:00:00.000Z",
+        "updatedAt":"2026-09-25T08:00:00.000Z"
+    },
+    {
+        "id":"rec_0010",
+        "description":"Other expenses",
+        "amount":100,
+        "category":"Other",
+        "date":"2025-01-01",
+        "createdAt":"2025-01-01T08:00:00.000Z",
+        "updatedAt":"2025-01-01T08:00:00.000Z"
+    }
+]
