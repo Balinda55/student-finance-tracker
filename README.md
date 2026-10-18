@@ -43,3 +43,6 @@ Users can also export their records as a JSON file or import records from anothe
 Finally, I included responsive styling so the website can adapt to different screen sizes. I also used semantic HTML, labels, keyboard focus indicators, and accessible status messages to make the website easier to use.
 
 In conclusion, the Student Finance Tracker demonstrates how HTML, CSS, and JavaScript can be used to build a practical application with form validation, regular expressions, data storage, search, sorting, and statistics.
+
+Link to my Website: http://127.0.0.1:5500/index.html#dashboard
+My website DEMO: https://youtu.be/bsjty6wtjbI
